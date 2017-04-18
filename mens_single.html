@@ -1,0 +1,677 @@
+<!--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+-->  
+<!DOCTYPE html>
+<html lang="zxx"> 
+<!-- Head -->
+<head> 
+<title>Sample</title>
+
+<!-- Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="sample">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Meta-Tags -->
+
+<!-- Custom-Stylesheet-Links -->
+<!-- Bootstrap-CSS -->	<link rel="stylesheet" href="css/bootstrap.css"	 type="text/css" media="all">
+<!-- Index-Page-CSS -->	<link rel="stylesheet" href="css/style.css"		 type="text/css" media="all">
+<!-- FlexSlider-CSS -->	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all">
+<!-- //Custom-Stylesheet-Links -->
+
+<!-- Fonts -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700"	   type="text/css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700"	   type="text/css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500" type="text/css" media="all">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.3/css/bootstrap-slider.min.css" />
+<!-- //Fonts -->
+
+<!-- Font-Awesome-File-Links -->
+<!-- CSS --> <link rel="stylesheet" href="css/font-awesome.css" 		 type="text/css" media="all">
+<!-- TTF --> <link rel="stylesheet" href="fonts/fontawesome-webfont.ttf" type="text/css" media="all">
+<!-- //Font-Awesome-File-Links -->
+
+<!-- Default-JavaScript --><script src="js/jquery-2.2.3.js"></script>
+<style type="text/css">
+/* - - - - - - LABELS - - - - - - */
+#container .page label {
+  cursor: pointer;
+x`  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 3em;
+  height: 3em;
+  border-radius: 100em;
+  border: .3em solid #FFF;
+  display: inline-block;
+  z-index: 10;
+  transition:         background .3s ease,
+                      color .3s ease;
+  -o-transition:      background .3s ease,
+                      color .3s ease;
+  -moz-transition:    background .3s ease,
+                      color .3s ease;
+  -webkit-transition: background .3s ease,
+                      color .3s ease;
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 3em;
+  text-align: center;
+  text-shadow: 0 .1em 0 rgba(0, 0, 0, .3),
+               0 -.05em 0 rgba(255, 255, 255, .3);
+}
+
+/* - - - - - - LABEL ONE - - - - - - */
+#container .page #label_one {
+  /*left: -12em;*/
+  float=left;
+  background: rgb(0, 135, 211);
+  color: rgb(255, 255, 255);
+}
+#container .page #label_one:hover {
+  color: rgb(0, 135, 211);
+  background: rgb(255, 255, 255);
+}
+
+/* - - - - - - LABEL TWO - - - - - - */
+#container .page #label_two {
+  /*left: -4em;*/
+  float=left;
+  background: rgb(233, 54, 40);
+  color: rgb(255, 255, 255);
+}
+#container .page #label_two:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(233, 54, 40);
+}
+
+/* - - - - - - LABEL THREE - - - - - - */
+#container .page #label_three {
+  /*right: -4em;*/
+  
+  background: rgb(245, 183, 0);
+  color: rgb(255, 255, 255);
+}
+#container .page #label_three:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(245, 183, 0);
+}
+
+/* - - - - - - LABEL FOUR - - - - - - */
+#container .page #label_four {
+  /*right: -12em;*/
+  background: rgb(19, 194, 96);
+  color: rgb(255, 255, 255);
+}
+#container .page #label_four:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(19, 194, 96);
+}
+
+
+/* - - - - - - HIDDEN INPUT - - - - - - */
+#container .page input[type=radio] {
+  display: none;
+}
+#ex1Slider .slider-selection {
+    background: #008080;
+  }
+  .row {
+    padding: 20px;
+    margin : 20px;
+    line-height: 10px;
+  }
+  .slider-handle{
+    color: #eee;
+    text-shadow: -2px 2px #008080;
+    background-color: #fff;
+    background-image: linear-gradient(top, #fff, #008080);
+    box-shadow: inset 0 0 0 1px #27496d;
+    border: none;
+  }
+  .slider-handle.hover,
+  .slider-handle:hover{
+    box-shadow: inset 0 0 0 1px #008080,0 5px 15px #fff;
+  }
+  .slider-handle:active,
+  .slider-handle.active{
+    box-shadow: inset 0 0 0 1px #008080,inset 0 5px 30px #fff;
+  }
+  .slider.slider-horizontal {
+    width: 100%;
+  }
+  .input-div {
+	width: 110px;
+	height: 51px;
+	border-radius: 2px;
+	border-width: 2px;
+	border-color: black;
+	background-color: lightgrey;
+	/*background: transparent url('bg.jpg') no-repeat;*/
+	/*color : #465665;*/
+	/*border:0;*/
+	padding:4px 8px;
+	margin-bottom:0px;
+  }
+  #evaluate-div{
+  	border-radius: 5px;
+  	width: 200px;
+  	height: 40px;
+  	text-align: center;
+  	padding-top: 4px;
+  	border-width: 3px;
+  	box-shadow: 1px 1px 1px 0px;
+  	background-color: #008080;
+  	color: white;
+  	left: 320px;
+  	position: absolute;
+  }
+</style>
+
+</head>
+<!-- //Head -->
+
+
+
+<!-- Body -->
+<body>
+
+
+
+	<!-- Header -->
+	<div class="agileheader">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default w3ls navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header wthree nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand agileinfo" href="index.html"><span>SAMPLE</span> APPAREL</a>
+					<ul class="w3header-cart">
+						<li class="wthreecartaits"><span class="my-cart-icon"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i><span class="badge badge-notify my-cart-badge"></span></span></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- //Header -->
+
+
+
+	<!-- Single-Product-View -->
+	<div class="w3aitssinglewthree">
+		<div class="container">
+
+			<div class="products">
+			<div class="single-page">
+				<div class="single-page-row" id="detail-21">
+					<div class="col-md-6 single-top-left">
+						<div class="flexslider">
+							<ul class="slides">
+								<li data-thumb="images/s1.jpg">
+									<div class="thumb-image detail_images"> <img src="images/s1.jpg" data-imagezoom="true" class="img-responsive" alt="Groovy Apparel"></div>
+								</li>
+								<li data-thumb="images/s2.jpg">
+									 <div class="thumb-image"> <img src="images/s2.jpg" data-imagezoom="true" class="img-responsive" alt="Groovy Apparel"></div>
+								</li>
+								<li data-thumb="images/s3.jpg">
+									<div class="thumb-image"> <img src="images/s3.jpg" data-imagezoom="true" class="img-responsive" alt="Groovy Apparel"></div>
+								</li> 
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 single-top-right">
+						<h1 class="item_name">Black Leather Jacket</h1>
+						<p>This item will be delivered within 5-10 working days.</p>
+						<div class="rating">
+							<span class="starRating">
+								<input id="rating5" type="radio" name="rating" value="5">
+								<label for="rating5">5</label>
+								<input id="rating4" type="radio" name="rating" value="4" checked>
+								<label for="rating4">4</label>
+								<input id="rating3" type="radio" name="rating" value="3">
+								<label for="rating3">3</label>
+								<input id="rating2" type="radio" name="rating" value="2">
+								<label for="rating2">2</label>
+								<input id="rating1" type="radio" name="rating" value="1">
+								<label for="rating1">1</label>
+							</span>
+						</div>
+						<div class="single-price">
+							<ul>
+								<li>₹6750 <small>10% Off</small></li>
+								<li><del>7500</del></li>
+								<li>Ends on: Nov,15th</li>
+							</ul>
+							<div>
+								 <hr> <a onclick="sizechart()">Size Guide</a> <hr>
+							</div>
+								<section id="container">
+								<!-- PAGE ONE -->
+								  <article class="page">
+								    <input type="radio" id="page_1" name="pages" />
+								      <label id="label_one" for="page_1">32</label>
+								  
+								<!-- PAGE TWO -->
+								  
+								    <input type="radio" id="page_2" name="pages" />
+								      <label id="label_two" for="page_2">34</label>
+								  
+								<!-- PAGE THREE -->
+								 
+								    <input type="radio" id="page_3" name="pages" />
+								      <label id="label_three" for="page_3">36</label>
+								      
+								
+								<!-- PAGE FOUR -->
+								  
+								    <input type="radio" id="page_4" name="pages" />
+								      <label id="label_four" for="page_4">38</label>
+							
+								  </article>
+							</section>
+						</div>
+
+						<p class="single-price-text">Fusce a egestas nibh, eget ornare erat. Proin placerat, urna et consequat efficitur, sem odio blandit enim, sit amet euismod turpis est mattis lectus. Vestibulum maximus quam et quam egestas imperdiet. In dignissim auctor viverra.</p>
+						<div class="cbp-pgcontent aitssinglew3" id="mens_single">
+							<button class="btn btn-danger agileits my-cart-btn" data-id="mens_single" data-name="Black Leather Jacket" data-summary="Black Leather Jacket" data-price="67.5" data-quantity="1" data-image="images/s1.jpg"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To Cart</button>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<div class="aitsaccordionw3layouts">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title asd">
+								<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Description <span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span><i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body panel_text">
+								<div class="scrollbar" id="style-2">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">More Colors (2) <span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span><i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="accordion-image">
+								<div class="ac-img">
+									<a href="#"><img src="images/product-1.jpg" alt="Groovy Apparel"></a>
+								</div>
+								<div class="ac-img">
+									<a href="#"><img src="images/product-2.jpg" alt="Groovy Apparel"></a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingThree">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Rating & Reviews (40+) <span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span><i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<h3>"Excellent Quality & Fitting!"</h3>
+							<h4>Léon, Certified Buyer.</h4>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+							<span>5 Stars</span>
+							<a href="#" class="next">Next Review &rarr;</a>
+						</div>
+					</div>
+
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingFour">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Shipping Info <span class="glyphicon glyphicon glyphicon-chevron-down" aria-hidden="true"></span><i class="glyphicon glyphicon-menu-up" aria-hidden="true"></i>
+								</a>
+							</h4>
+						</div>
+						<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+							<h3>Shipping</h3>
+							<ul class="ship">
+								<li class="day"><i class="fa fa-calendar" aria-hidden="true"></i> 5-10 Business Days</li>
+								<li class="home"><i class="fa fa-truck" aria-hidden="true"></i> Free Home Delivery</li>
+								<li class="cod"><i class="fa fa-male" aria-hidden="true"></i> Cash On Delivery Available*</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		</div>
+	</div>
+	<!-- //Single-Product-View -->
+<!-- Default-JavaScript --><script src="js/jquery-2.2.3.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.3/bootstrap-slider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+<script type="text/javascript">
+  function myfun1()
+  {
+	var divi = document.getElementById('ex1').value ;
+	myHeight.value = divi ;
+  }
+  function myfun2()
+  {
+	var divi = document.getElementById('ex2').value ;
+	myWeight.value = divi ;
+  }
+  function myfun3()
+  {
+	var divi = document.getElementById('ex3').value ;
+	chest.value = divi ;
+  }
+  function myfun4()
+  {
+	var divi = document.getElementById('ex4').value ;
+	shoulder.value = divi ;
+  }
+  function myfun5()
+  {
+	var divi = document.getElementById('ex5').value ;
+	length1.value = divi ;
+  }
+
+  function sizechart(){
+    var message = '<div class="row"><div class="col-md-10"><h4><b>Get your perfect fit based on your unique measurements</b></h4></div></div>'+
+                  '<div class ="row">'+
+                    '<div class = "col-md-2">My Height</div>'+
+                    '<div class = "col-md-8"><input id="ex1" data-slider-id="ex1Slider" onchange="myfun1()" type="text" data-slider-min="90" data-slider-max="230" data-slider-step="1" data-slider-value="14"/></div>'+
+                    '<div class = "col-md-2"><input class="input-div" id="myHeight" value=90 disabled ></div>'+
+                 ' </div>'+
+                 '<div class ="row">'+
+                    '<div class = "col-md-2">My Weight</div>'+
+                    '<div class = "col-md-8"><input id="ex2" data-slider-id="ex1Slider" onchange="myfun2()" type="text" data-slider-min="25" data-slider-max="200" data-slider-step="1" data-slider-value="14"/></div>'+
+                    '<div class = "col-md-2"><input class="input-div" id="myWeight"></div>'+
+                 ' </div>'+
+                 '<div class ="row">'+
+                    '<div class = "col-md-2">Chest</div>'+
+                    '<div class = "col-md-8"><input id="ex3" data-slider-id="ex1Slider" onchange="myfun3()" type="text" data-slider-min="36.5" data-slider-max="50.5" data-slider-step="0.5" data-slider-value="36.5"/></div>'+
+                    '<div class = "col-md-2"><input class="input-div" id="chest"></div>'+
+                 ' </div>'+
+                 '<div class ="row">'+
+                    '<div class = "col-md-2">Shoulder</div>'+
+                    '<div class = "col-md-8"><input id="ex4" data-slider-id="ex1Slider" onchange="myfun4()" type="text" data-slider-min="15.5" data-slider-max="21.5" data-slider-step=".5" data-slider-value="14.5"/></div>'+
+                    '<div class = "col-md-2"><input class="input-div" id="shoulder"></div>'+
+                 ' </div>'+
+                 '<div class ="row">'+
+                    '<div class = "col-md-2">Length</div>'+
+                    '<div class = "col-md-8"><input id="ex5" data-slider-id="ex1Slider" onchange="myfun5()" type="text" data-slider-min="25" data-slider-max="31" data-slider-step=".5" data-slider-value="24"/></div>'+
+                    '<div class = "col-md-2"><input class="input-div" id="length1"></div>'+
+                 ' </div>'+
+                 '<div class ="row">'+
+                    '<div class = "col-md-2">Select your Fit</div>'+
+                    '<div class = "col-md-8"><input id="ex14" data-slider-id="ex1Slider" type="text" data-slider-step="20" data-slider-tooltip="hide" /></div>'+
+                 ' </div>'+
+                 '<div class ="row">'+
+                    '<button class = "col-md-2" id="evaluate-div" onclick="evaluatefun()"> <h4> FIND MY SIZE </h4> </button>'+
+                 ' </div>';
+
+    var dialog = bootbox.dialog({
+      message : message,
+      title : "SizeChart",
+      onEscape : true,
+      backdrop : true,
+      size : "large",
+      callback : function(){
+        console.log("i am here");
+      }
+    })
+    dialog.init(function(){
+      $("#ex1").slider({
+      });
+      $("#ex2").slider({
+      });
+      $("#ex3").slider({
+      });
+      $("#ex4").slider({
+      });
+      $("#ex5").slider({
+      });
+      $("#ex14").slider({
+          ticks: [0, 20, 40, 60, 80,100],
+          ticks_positions: [0, 20, 40, 60, 80,100],
+          ticks_labels: ["Very Tight", "Tight", "Slightly Tight", "Average", "Slightly Loose","Loose"],
+      });
+    })
+  }
+  function evaluatefun(){
+  	bootbox.hideAll();
+  	var size1;
+  	var hei1=document.getElementById("myHeight").value;
+  	var wei1=document.getElementById("myWeight").value;
+  	
+  	var che1=document.getElementById("chest").value;
+  	var sho1=document.getElementById("shoulder").value;
+  	var len1=document.getElementById("length1").value;
+
+  	var chestList = [38,40,42,44,46];
+  	var shoulderList = [16,16.5,17.5,18.5,19.5]
+  	var lengthList = [26.5,27.5,29,30];
+
+  	function checkAdult1(age) {
+	    return age >= document.getElementById("chest").value;;
+	}
+	
+	function checkAdult2(age) {
+	    return age >= document.getElementById("shoulder").value;;
+	}
+
+  	function checkAdult3(age) {
+	    return age >= document.getElementById("length1").value;;
+	}
+
+  	var posChest = chestList.indexOf(chestList.find(checkAdult1));
+  	var posshoulder = shoulderList.indexOf(shoulderList.find(checkAdult2));
+  	var poslength = lengthList.indexOf(lengthList.find(checkAdult3));
+
+  	console.log(posChest,"posChest");
+  	console.log(posshoulder,"posChest");
+  	console.log(poslength,"posChest");
+
+  	var decidefac= 0;
+  	var fitche=0;
+  	var fitsho=0;
+  	var fitlen=0;
+  	var sizedisp=Math.max(posChest,Math.max(posshoulder,poslength));
+
+  	var linedisp1="",linedisp2="",linedisp3="";
+  	if(sizedisp==posChest)
+  	{
+  		decidefac="Chest";
+  		fitche=0;
+  		console.log(posshoulder,posChest,poslength);
+  		if(posChest!=posshoulder)
+  		{
+  			linedisp1="Loose from Shouder ";
+  		}
+  		if(poslength!=posChest)
+  		{
+  			linedisp3="Long Length wise";
+  		}
+  	}
+  	else if(sizedisp==posshoulder)
+  		{
+  			decidefac="Shoulder";
+  			fitsho=0;
+  		console.log(posshoulder,posChest,poslength);
+
+  			if(posChest!=posshoulder)
+  			{
+	  			linedis1="Loose from Chest ";
+	  		}	
+  			if(poslength!=posshoulder)
+  			{
+	  			linedis3="Long Length wise";
+  			}
+  		}
+  	
+  	else if(sizedisp==poslength)
+  		{
+  			decidefac="Length";
+  			fitlen=0;
+  		console.log(posshoulder,posChest,poslength);
+
+	  		if(posChest!=poslength)
+  			{	
+  				linedis1="Loose from Chest";
+  			}
+  			if(poslength!=posshoulder)
+	  		{
+  				linedisp2="Loose from Shouder";
+	  		}
+	  	}
+	  	var sizech;
+  	if(sizedisp==0) sizech='S';
+  	else if(sizedisp==1) sizech='M';
+  	else if(sizedisp==2) sizech='L';
+  	else if(sizedisp==3) sizech='XL';
+  	else if(sizedisp==4) sizech='XXL';
+
+
+    var message = '<div class="row"><div class="col-md-10"><h4><b>Your Fit Deciding Factor is '+decidefac+'</b></h4></div></div>'+
+                 '<div class ="row">Size suitable for you is '+sizech+'<br><br>'+linedisp1+'<br><br>'+linedisp2+'<br><br>'+linedisp3+
+                 ' </div>';
+
+    var dialog = bootbox.dialog({
+      message : message,
+      title : "SizeChart",
+      onEscape : true,
+      backdrop : true,
+      size : "large",
+      callback : function(){
+        console.log("i am here");
+      }
+    })
+    dialog.init(function(){
+      $("#ex1").slider({
+      });
+      $("#ex2").slider({
+      });
+      $("#ex3").slider({
+      });
+      $("#ex4").slider({
+      });
+      $("#ex5").slider({
+      });
+      $("#ex14").slider({
+          ticks: [0, 20, 40, 60, 80,100],
+          ticks_positions: [0, 20, 40, 60, 80,100],
+          ticks_labels: ["Very Tight", "Tight", "Slightly Tight", "Average", "Slightly Loose","Loose"],
+      });
+    })
+  }
+</script>
+
+<script src="js/modernizr.custom.js"></script>
+	<!-- Custom-JavaScript-File-Links -->
+
+	<!-- cart-js -->
+	<script src="js/minicart.js"></script>
+	<script>
+        w3l.render();
+
+        w3l.cart.on('w3agile_checkout', function (evt) {
+        	var items, len, i;
+
+        	if (this.subtotal() > 0) {
+        		items = this.items();
+
+        		for (i = 0, len = items.length; i < len; i++) { 
+        		}
+        	}
+        });
+    </script>  
+	<!-- //cart-js --> 
+
+
+		<!-- Dropdown-Menu-JavaScript -->
+			<script>
+				$(document).ready(function(){
+					$(".dropdown").hover(
+						function() {
+							$('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+							$(this).toggleClass('open');
+						},
+						function() {
+							$('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+							$(this).toggleClass('open');
+						}
+					);
+				});
+			</script>
+		<!-- //Dropdown-Menu-JavaScript -->
+
+		<!-- Popup-Box-JavaScript -->
+			<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<script>
+				$(document).ready(function() {
+					$('.popup-with-zoom-anim').magnificPopup({
+						type: 'inline',
+						fixedContentPos: false,
+						fixedBgPos: true,
+						overflowY: 'auto',
+						closeBtnInside: true,
+						preloader: false,
+						midClick: true,
+						removalDelay: 300,
+						mainClass: 'my-mfp-zoom-in'
+					});
+				});
+			</script>
+		<!-- //Popup-Box-JavaScript -->
+
+		<!-- FlexSlider-JavaScript -->
+			<script defer src="js/jquery.flexslider.js"></script>
+			<script>
+				$(window).load(function() {
+					$('.flexslider').flexslider({
+						animation: "slide",
+						controlNav: "thumbnails"
+					});
+				});
+			</script>
+		<!-- //FlexSlider-JavaScript -->
+
+		<!-- ImageZoom-JavaScript --><script src="js/imagezoom.js"></script>
+
+	<!-- //Custom-JavaScript-File-Links -->
+
+		<!-- Bootstrap-JavaScript --> <script src="js/bootstrap.js"></script>
+
+</body>
+<!-- //Body -->
+
+
+
+</html>
